@@ -18,9 +18,9 @@ export default class ChatForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSave} style={{display:"inline-block"}}>
-        <input type="text" name="chat" value={this.state.title} onChange={this.titleChange}></input>
-        <button type="submit">kirim</button>
+      <form onSubmit={this.onSave} className="container center_div">
+        <input className="form-control" type="text" name="chat" value={this.state.title} onChange={this.titleChange}></input>
+        <button className="btn btn-primary" type="submit">kirim</button>
       </form>
     );
   }

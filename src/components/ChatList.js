@@ -8,7 +8,7 @@ export default class ChatList extends Component {
     ));
 
     return <dl>
-    <dt>User 1</dt>
+
     <dd style={{listStyleType:"none"}}>{nodelist}</dd>
     
     </dl>;
